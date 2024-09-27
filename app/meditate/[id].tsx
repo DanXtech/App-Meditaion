@@ -69,7 +69,6 @@ const Meditate = () => {
 
     const toggleMeditationSessionStatus = async () => {
         if (secoundRemaining === 0) setDuration(10);
-
         // This will toggle the Meditating state
         setMeditating(!isMeditating);
 
